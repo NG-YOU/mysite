@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 유저가 id와 password를 입력하는 공간 생성 -->
+     <form action="/login" method="post">
+        <div>
+            <label>ID</label>
+            <input type="text" name = 'input_id'>
+        </div>
+        <div>
+            <label>password</label>
+            <input type="password" name = 'input_pass'>
+        </div>
+        <!-- 데이터 제출 버튼 -->
+        <input type = 'submit' value="로그인">
+        <!-- 회원가입 페이지 이동하는 하이퍼링크 -->
+        <a href = '/signup'>회원가입</a>
+     </form>
+</body>
+</html>
